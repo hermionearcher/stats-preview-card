@@ -115,7 +115,7 @@
     background-image: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%) ), url(../images/image-header-mobile.jpg);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 27.1vh;
     width: 100%;
     border-top-right-radius: 10px;
