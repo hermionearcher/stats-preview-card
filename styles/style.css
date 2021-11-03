@@ -41,7 +41,6 @@
   .container {
     width: 80vw;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -70,7 +69,8 @@
     padding-top: 0;
   }
   .column-two {
-    background-image: url(../images/image-header-desktop.jpg);
+    background-image: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%) ), url(../images/image-header-desktop.jpg);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 50%;
@@ -112,10 +112,11 @@
     color: #ffffff;
   }
     .column-two {
-    background-image: url(../images/image-header-mobile.jpg);
+    background-image: linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%) ), url(../images/image-header-mobile.jpg);
+    background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 30vh;
+    min-height: 27.1vh;
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px; 
