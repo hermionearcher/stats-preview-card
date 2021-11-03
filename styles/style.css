@@ -112,7 +112,7 @@
     .column-two {
     background-image: url(../images/image-header-mobile.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     min-height: 30vh;
     min-width: 100vw;
     border-top-right-radius: 10px;
